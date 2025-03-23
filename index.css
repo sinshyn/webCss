@@ -1,0 +1,338 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.thanhmenu
+{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thanhmenu img
+{
+    width: 200px;
+    height: 100px;
+}
+.dong
+{
+    display: flex;
+    max-width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+header
+{
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 0px 10px 0px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+  color: red;
+}
+p
+{
+  margin: 10px 0px 10px 0px;
+}
+.col2
+{
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    
+}
+.col3
+{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col3bs
+{
+  flex: 0 0 40%;
+    max-width: 40%;
+}
+.col8
+{
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.col12
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.menu ul li
+{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+.menu 
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+}
+ul.phancap
+{
+    position: absolute;
+    width: 135px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    z-index: 9999;
+    transition: opacity 0.25s linear, visibility 0.1s linear .1s;
+    
+}
+ul.phancap a
+{
+  text-align: left;
+  font-size: 20px;
+}
+ul.phancap li
+{
+    padding: 10px 0 0 0;
+    float: none;
+    text-align: left;
+    display: none;
+}
+.menu ul li:hover ul.phancap li
+{
+    display: block;
+}
+.timkim
+{
+    padding: 30px 0px 10px 150px;
+    display: flex;
+    
+}
+/*BAT DAU SLIDE*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: unset;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  /*KET THUC SLIDE*/
+  .canchinh
+  {
+    margin-top: 10px;
+  }
+  .nen 
+  {
+    margin-bottom: 20px;
+    background-color: aqua;
+    height: 40px;
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+    text-decoration: underline;
+  }
+  .col3 img
+  {
+    width: 300px;
+    height: 300px;
+  }
+  .thesp
+  {
+    margin-bottom: 20px;
+  }
+  footer
+  {
+    display: block;
+    background-color: #afadad;
+    padding: 15px 0px 20px 0px;
+    font-size: larger;
+  }
+  .dan 
+  {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  ul.footer_menu li a
+  { 
+    color: rgb(0, 0, 0);
+    padding: 5px 50px 0 50px;
+  }
+  ul.footer_menu li a:hover
+  { 
+    color: rgb(223, 39, 39);
+  }
+  ul.footer_menu li
+  {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  ul.footer_menu li h3
+  {
+    padding: 5px 50px 0 50px;
+    bottom: 5px;
+    color:rgb(28, 150, 44)
+  }
+  .nhanmanh
+  {
+    padding: 20px 10px 0px 20px;
+    text-align: center;
+    border-top: 1px solid white;
+  }
+  button
+  {
+    background-color: black;
+  }
+.thesp img
+{
+  width: 70%;
+  height: 70%;
+}
+
+
+.thesp
+{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 20px;
+}
+
+.main
+  {
+      background: whitesmoke;
+      box-shadow: 0px 0px 10px yellowgreen;
+      box-sizing: border-box;
+      margin-bottom: 100px;
+  }
+.main:hover
+  {
+      box-shadow: 0px 0px 10px lightskyblue;
+  }
+  .tensp p:hover
+  {
+    color: orange;
+  }
+  .gia
+  {
+    color: red;
+  }
+h1 a
+{
+  color: black;
+}
+h1 a:hover
+{
+  color: black;
+}
+.product {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.product h5 {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s ease;
+  color: #f2f2f2;
+}
+.product:hover h5 {
+  transform: translateY(-20px);
+  color: rebeccapurple;
+}
+.product:hover p {
+  transform: translateY(-20px);
+}
+.product img {
+  width: 70%;
+  height: auto;
+  transition: all 0.5s ease;
+}
+
+.product:hover img {
+  transform: translateY(-20px);
+}
